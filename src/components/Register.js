@@ -6,7 +6,7 @@ import {
   faInfoCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import axios from "./api/axios";
+import axios from "../api/axios";
 
 // start with a-z or A-Z and end with 3 to 23 chars from a-z or A to Z, total 4 to 24 characters
 const USER_REGEX = /^[a-zA-Z][a-zA-Z0-9-_]{3,23}$/;
